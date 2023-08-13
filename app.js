@@ -44,6 +44,6 @@ app.post("/compose",(req,res)=>{
     res.redirect('/')
 })
 
-app.listen(80,()=>{
+app.listen(process.env.PORT || 3000,()=>{
     console.log("listening")
 })
