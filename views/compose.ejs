@@ -1,0 +1,10 @@
+<%- include('partials/header'); -%>
+<form action="/compose" method="post">
+    <input type="text" placeholder="Enter heading" autocomplete="off" name="heading">
+    <br>
+    <br>
+    <textarea placeholder="Enter" autocomplete="off" name="newitems"rows="4" cols="50"></textarea>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+<%- include('partials/footer'); -%>

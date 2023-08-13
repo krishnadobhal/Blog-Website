@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+.navbar{
+    height: 10rem;
+    display:flex;
+    align-items: center;
+    background-color: rgb(252, 240, 226);
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif; 
+    color: gray;
+    flex-basis: 70rem;
+    margin-left: 6rem;
+    font-size: 2rem;
+}
+.points{
+    flex-basis: 10rem;
+    color: gray;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.points:last-child{
+    margin-right: 30px;
+}
+h1{
+    font-size: 3rem;
+}
+.child{
+    margin: 1rem     5rem 0 5rem;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
